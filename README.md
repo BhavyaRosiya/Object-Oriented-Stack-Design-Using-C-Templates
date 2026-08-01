@@ -29,7 +29,7 @@ A menu-driven **Stack Application** developed in **C++** using **Class Templates
 
 # 🛠️ Technologies Used
 
-- C++17
+- C++
 - Object-Oriented Programming (OOP)
 - Class Templates
 - Function Templates
