@@ -190,11 +190,11 @@ int main()  // MAIN FUNCTION
     
     switch(op)
     {
-      case 1 : StackMenu<int>("INT"); c = 0; break;
-      case 2 : StackMenu<char>("CHAR"); c = 0; break;
-      case 3 : StackMenu<float>("FLOAT"); c = 0; break;
-      case 4 : StackMenu<double>("DOUBLE"); c = 0; break;
-      case 5 : StackMenu<string>("STRING"); c = 0; break;
+      case 1 : StackMenu<int>("INT"); c = 0; break; // PAssing Int 
+      case 2 : StackMenu<char>("CHAR"); c = 0; break; //Passing Char
+      case 3 : StackMenu<float>("FLOAT"); c = 0; break; // Passing Float
+      case 4 : StackMenu<double>("DOUBLE"); c = 0; break; // Passing Double
+      case 5 : StackMenu<string>("STRING"); c = 0; break; // Passing String
       case 6 : return 0;
       default : c++;
                if(c == 1)
