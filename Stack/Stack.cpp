@@ -80,7 +80,7 @@ class Stack
       cout <<MAGENTA;
       cout <<"|====================================|" <<endl;
       cout <<"|  ****** ELEMENTS IN STACK ******   |" <<endl;
-      for(int i = 0; i <= Top; i++)
+      for(int i = Top; i >= 0; i--)
       {
         cout <<"| Element = "<< left << setw(25) << stk[i] <<"|"<< endl;
       }
